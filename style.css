@@ -1,0 +1,49 @@
+/* General body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, #1e3c72, #2a5298); /* Gradient background */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Layout container */
+.container {
+    display: flex;
+    align-items: center;
+}
+
+/* Canvas styling */
+canvas {
+    border: 4px solid #fff;
+    background-color: #000; /* Black background for the game */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow for the canvas */
+    margin-right: 20px; /* Space between canvas and buttons */
+}
+
+/* Control buttons styling */
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0; /* Space between buttons */
+    cursor: pointer;
+    font-size: 16px;
+    color: #1e3c72;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    width: 100px; /* Fixed width for the buttons */
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
